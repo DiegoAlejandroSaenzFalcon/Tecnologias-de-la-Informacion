@@ -1,0 +1,48 @@
+﻿site_name: Soporte TI — Guía Completa de Aprendizaje
+site_url: https://diegoalejandrosaenzfalcon.github.io/Tecnologias-de-la-Informacion/
+site_author: Diego Alejandro Saenz Falcon
+copyright: Copyright &copy; 2024 Diego Alejandro Saenz Falcon
+
+repo_url: https://github.com/DiegoAlejandroSaenzFalcon/Tecnologias-de-la-Informacion.
+repo_name: DiegoAlejandroSaenzFalcon/Tecnologias-de-la-Informacion.
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+    - scheme: slate
+      primary: indigo
+      accent: amber
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+docs_dir: .
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+nav:
+  - Inicio: index.md
+
+plugins:
+  - search
