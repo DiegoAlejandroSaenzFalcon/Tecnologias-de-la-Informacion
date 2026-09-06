@@ -8,15 +8,6 @@ repo_name: DiegoAlejandroSaenzFalcon/Tecnologias-de-la-Informacion.
 
 theme:
   name: mkdocs
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: amber
-    - scheme: slate
-      primary: indigo
-      accent: amber
-
-docs_dir: .
 
 nav:
   - Inicio: index.md
