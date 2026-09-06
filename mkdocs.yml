@@ -1,1 +1,8 @@
-﻿
+﻿site_name: Soporte TI
+site_url: https://diegoalejandrosaenzfalcon.github.io/Tecnologias-de-la-Informacion/
+theme:
+  name: material
+nav:
+  - Inicio: index.md
+plugins:
+  - search
