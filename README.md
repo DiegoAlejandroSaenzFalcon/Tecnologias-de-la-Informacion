@@ -1,6 +1,12 @@
 # Soporte TI — Guía Completa de Aprendizaje
 
-### Diego Alejandro Saenz Falcon · Soporte TI · Redes · Ciberseguridad · Automatización
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)]
+[![Google IT Support](https://img.shields.io/badge/Google%20IT%20Support-6%20Cursos-blue.svg)](https://www.coursera.org/professional-certificates/google-it-support)
+[![GitHub Pages](https://img.shields.io/badge/Docs-GitHub%20Pages-brightgreen.svg)](https://diegoalejandrosaenzfalcon.github.io/Tecnologias-de-la-Informacion./)
+[![Autor](https://img.shields.io/badge/Autor-Diego%20Alejandro%20Saenz%20Falcon-blue.svg)](https://github.com/DiegoAlejandroSaenzFalcon)
+
+### Diego Alejandro Saenz Falcon · Soporte TI · Redes · Ciberseguridad · Automatización Saenz Falcon · Soporte TI · Redes · Ciberseguridad · Automatización
 
 > Esta es una **guía de estudio completa y gratuita** basada en el currículo oficial del **Google IT Support Professional Certificate** (Coursera), estructurada por **módulos y submódulos**, con teoría, diagramas visuales, prácticas, comandos, *checklists* de dominio y enlaces a **plataformas gratuitas** para practicar (Cisco NetAcad, Packet Tracer, TryHackMe, Wireshark, Linux Journey y más).
 
