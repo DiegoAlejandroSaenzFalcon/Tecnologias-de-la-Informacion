@@ -39,7 +39,7 @@ La auditoría de gobierno, seguridad y documentación del repositorio fue correg
 
 - PR #2: auditoría y correcciones principales, merged.
 - PR #3: reconciliación final de navegación MkDocs, merged.
-- Commit final de `main`: `3b6dd8346dfbde8e7abb30f4e2feacb9b8fcf8b9`.
+- Commit de cierre de `main`: `67019db894c2be8562613eb0ed11650a0c4fb03e` (PR #4).
 
 ## Límite de verificación
 

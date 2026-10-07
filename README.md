@@ -39,8 +39,8 @@
 | Guía | Contenido | Enlace |
 |---|---|---|
 | **Introducción a la Informática (Microsoft)** | Hardware, SO, sistemas empresariales, seguridad y proyecto final | [Ver guía](./guia-microsoft-introduccion-a-la-informatica/README.md) |
-| **GitHub para principiantes** | Cómo navegar este repositorio sin saber Git | [Ver guía](./guia-github-basico/README.md) |
-| **Conectar el Google TV a internet** | Guía práctica para conectividad y problemas comunes | [Ver guía](./guia-conectar-google-tv/README.md) |
+| **GitHub para principiantes** | — | No publicada en este repositorio |
+| **Conectar el Google TV a internet** | — | No publicada en este repositorio |
 
 ## Enfoque
 
@@ -59,7 +59,7 @@ Entre los recursos utilizados como apoyo se encuentran Cisco Networking Academy,
 
 ## ¿Es tu primera vez en GitHub?
 
-Empieza por la [Guía de GitHub para principiantes](./guia-github-basico/README.md). Explica cómo navegar el repositorio, entender su estructura y trabajar con sus documentos.
+Empieza por la estructura de este README y por la ruta de aprendizaje publicada. Las guías complementarias no publicadas no se presentan como disponibles.
 
 ---
 
