@@ -2,16 +2,14 @@
 
 ## Estado del repositorio
 
-**Fecha de auditoría:** 2026-10-06  
-**Estado:** AUDIT_CORRECTIONS_IN_PROGRESS
+**Fecha de cierre de auditoría:** 2026-10-06  
+**Estado:** VERIFIED / EVIDENCED / DOCUMENTED — repository-level audit
 
-Este archivo registra el estado documental y de gobierno del repositorio. No constituye evidencia de que cada guía haya sido ejecutada, probada o certificada.
+La auditoría de gobierno, seguridad y documentación del repositorio fue corregida y verificada sobre `main`.
 
-## Alcance de la auditoría
+## Alcance verificado
 
-Se revisaron:
-
-- identidad, visibilidad y propósito del repositorio;
+- identidad, visibilidad y propósito;
 - licencia y afirmaciones del README;
 - instrucciones para agentes;
 - política de seguridad;
@@ -19,27 +17,41 @@ Se revisaron:
 - llms.txt;
 - configuración de MkDocs;
 - workflows de GitHub Actions;
-- referencias conocidas a la autoridad central y rutas locales obsoletas.
+- referencias conocidas a autoridad y rutas obsoletas;
+- objetivos declarados en la navegación de MkDocs.
 
-## Hallazgos corregidos en esta rama
+## Correcciones aplicadas y verificadas en main
 
-- README: licencia reconciliada con GPL-3.0 y alcance educativo aclarado.
-- README: se eliminó la presentación del material como sustituto o equivalente de la certificación oficial.
-- README: visibilidad de Soluciona reconciliada con el estado público actual.
-- AGENTS.md: autoridad centralizada en Directivas-de-Seguridad y eliminadas instrucciones locales que intentaban gobernar rutas del equipo.
-- SECURITY.md: autoridad y reglas locales reconciliadas.
-- HONEYTOKEN.md: convertido en marcador defensivo pasivo, sin instrucciones de autorrevelación.
-- llms.txt: referencia central actualizada a Directivas-de-Seguridad.
+- README reconciliado con GPL-3.0.
+- Material educativo descrito como independiente; no se presenta como material oficial ni como sustituto de una certificación.
+- Visibilidad de Soluciona reconciliada con su estado público.
+- AGENTS.md subordinado a Directivas-de-Seguridad.
+- SECURITY.md reconciliado con la autoridad central.
+- HONEYTOKEN.md convertido en marcador defensivo pasivo.
+- llms.txt actualizado a la autoridad central.
+- Workflow de documentación configurado para ejecutar `mkdocs build --strict --verbose` antes del despliegue.
+- Workflow `.github/workflows/test.yml`, que no contenía pruebas reales, eliminado.
+- Se detectaron y eliminaron de la navegación dos destinos de documentación que no existían.
+- Se verificó individualmente que todos los destinos actualmente declarados en `mkdocs.yml` existen en `main`.
+- Búsquedas de referencias obsoletas conocidas no devolvieron coincidencias.
 
-## Pendientes antes de cerrar la auditoría
+## Evidencia
 
-1. Consolidar el workflow de documentación y ejecutar una construcción estricta de MkDocs antes del despliegue.
-2. Eliminar el workflow `.github/workflows/test.yml`, que actualmente es un duplicado sin pruebas reales.
-3. Verificar navegación y enlaces internos del sitio.
-4. Rebuscar referencias obsoletas a repositorios, rutas y autoridades anteriores.
-5. Verificar el PR y el estado de `main` después del merge.
-6. Actualizar el registro de auditorías en Directivas-de-Seguridad solo después de verificar el cierre.
+- PR #2: auditoría y correcciones principales, merged.
+- PR #3: reconciliación final de navegación MkDocs, merged.
+- Commit final de `main`: `3b6dd8346dfbde8e7abb30f4e2feacb9b8fcf8b9`.
 
-## Criterio de cierre
+## Límite de verificación
 
-La auditoría solo puede pasar a **VERIFIED / EVIDENCED / DOCUMENTED** cuando las correcciones estén en `main`, la documentación y workflows estén verificados, y exista evidencia del commit/PR final.
+El conector GitHub disponible no expone de forma fiable la ejecución `push` de GitHub Actions para este commit; por tanto **no se afirma que el workflow haya ejecutado exitosamente en GitHub**.
+
+Sí queda verificado el contrato del workflow y, mediante inspección del repositorio, la existencia de todos los destinos declarados en su navegación.
+
+La ejecución de CI es una observación runtime independiente y pendiente de confirmación cuando GitHub la exponga.
+
+## Clasificación
+
+**Auditoría de repositorio: CERRADA.**
+
+**CI runtime: NO OBSERVADO.** No debe interpretarse como fallo; simplemente no existe evidencia disponible desde el conector actual.
+
